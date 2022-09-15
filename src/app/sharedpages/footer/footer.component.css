@@ -1,0 +1,7 @@
+
+footer{
+    overflow: hidden;
+    padding: 20px 10px;
+    position: sticky;
+    top: 100%;
+}

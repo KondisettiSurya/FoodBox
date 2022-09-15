@@ -1,0 +1,61 @@
+*{
+    font-size: 62.5%;
+}
+
+.banner{
+    background-image: url('/assets/images/Banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    object-fit: contain;
+    height: 44.8rem;
+}
+.banner_buttons {
+   
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+h1{
+    font-size: 3rem;
+    margin-left: 4rem;
+    padding-top: 18rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+    text-shadow:2px 2px 9px black;
+}
+.banner_buttons .desc{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+    text-shadow:2px 2px 9px black;
+
+}
+button{
+    margin-top: 2rem;
+    box-shadow:2px 2px 9px black;
+}
+
+@media(max-width:76.97rem){
+
+    .banner{
+        height: 20rem;
+    }
+    h1{
+        font-size: 1rem;
+        margin-left: 1rem;
+        padding-top: 7rem;
+    }
+    .banner_buttons .desc{
+        font-size: 0.5rem;
+        margin-left: -2.2rem;
+        margin-top: -1.2rem;   
+    }
+    button{
+        font-size: 0.5rem;
+        margin-top: -1.2rem;
+        margin-left: -2.2rem;
+    }
+}

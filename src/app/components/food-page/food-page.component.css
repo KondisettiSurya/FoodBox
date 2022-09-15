@@ -1,0 +1,39 @@
+.container{
+
+    border-radius: 1.8rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+   
+}
+.container >*{
+ min-width: 27rem;
+ max-width: 40rem;
+}
+
+ img{
+    border-radius: 3rem;
+    flex: 1 0;
+    object-fit: cover;
+    height: 30rem;
+    margin: 1rem;
+    
+}  
+.h1{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3rem;
+    font-size: 2.5rem;
+}
+
+.favourite{
+    position: absolute;
+    top: 14rem;
+    right: 1rem;
+    font-size: 2rem;
+}
+
+.favourite.not{
+    color: rgb(235, 21, 21);
+}

@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+
+<section class="mt-5 ">
+    <div class="container">
+                <img [src]="food.image" alt="check the network connection">
+            <div class="details">
+                <div class="h1 name">{{food.name}}
+               
+                <span class="favourite {{food.notfavourite?'':'not'}}" ><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    
+                        <div class="card-body p-2 mt-2">
+                            <span *ngFor="let origin of food.origins">{{origin}},  </span>
+                            <span class="delivery" style="text-decoration: none;"><i class="fa-solid fa-clock text-primary"></i> {{ food.Time}} Min</span>
+                            <div class="card-price">
+                              <h1 class="mt-2" style="font-size: 20px; text-decoration: none;">{{food.price|currency:'INR'}}</h1>
+                            </div>
+                           <button class="btn btn-outline-danger" (click)="addToCart()">Add Cart</button>
+                      
+                        </div>
+        </div> 
+    </div>
+    </div>
+
+</section>
+<app-footer></app-footer>

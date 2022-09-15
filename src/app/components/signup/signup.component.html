@@ -1,0 +1,25 @@
+
+
+<section >
+  <div class="loginBox"> <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
+      <h3>Welcome</h3>
+      <form [formGroup]="registerForm" (ngSubmit)="onsubmit()">
+          <div class="inputBox"> 
+              <input type="text" formControlName="firstname" name="firstName" placeholder="Firstname">
+              <small  *ngIf="registerForm.controls['firstname'].dirty && registerForm.hasError('required','firstname')" class="text-danger">First Name is required</small>
+              <input type="text" formControlName="lastname" name="lastname" placeholder="Lastname">  
+              <small *ngIf="registerForm.controls['lastname'].dirty && registerForm.hasError('required','lastname')" class="text-danger">last Name is required</small>
+              <input type="text" formControlName="username" name="Username" placeholder="Username"> 
+              <small *ngIf="registerForm.controls['username'].dirty && registerForm.hasError('required','username')" class="text-danger">user Name is required</small>
+              <input type="email" formControlName="email" name="email" placeholder="Email">
+              <small *ngIf="registerForm.controls['email'].dirty && registerForm.hasError('required','email')" class="text-danger">Email is required</small> 
+              <input id="pass" formControlName="password"  type="password" name="Password" placeholder="Password" >
+              <small *ngIf="registerForm.controls['password'].dirty && registerForm.hasError('required','password')" class="text-danger">Password is required</small> 
+          </div> 
+           <button class="button">Signup</button>
+          <p style="color: #59238F; text-align: center;"> <a routerLink="/login">Login</a></p>
+      </form> 
+                
+  </div>
+  </section>
+ 

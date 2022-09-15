@@ -1,0 +1,34 @@
+
+    <!--navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" routerLink="" routerLinkActive="active-link">
+          <img src="../../../assets/images/pngwing.com (1).png" alt="connection the connection" style="height: 40px; width:40px;">
+          Food<span style="color: red;">Box</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/home" routerLinkActive="active-link" >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/add-product" routerLinkActive="active-link" >Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/signup" routerLinkActive="active-link" >signup</a>
+            </li>
+            <li class="nav-item">
+             <button class="btn btn-outline-danger" (click)="logout()">Logout</button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/cartpage" routerLinkActive="active-link"> <i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+            </li>
+          
+          </ul>  
+        </div>
+      </div>
+    </nav>

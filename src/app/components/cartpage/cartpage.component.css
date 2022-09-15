@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 1.5rem;
+    border: 1rem;
+
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    flex: 3 0;
+    border: 1px solid rgb(232, 228, 228);
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 0;
+    list-style: none;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 5px rgb(28, 28, 28);
+
+}
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #e4e4e4;
+}
+
+ul li:last-child{
+  border: none;
+}
+
+ul li img{
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+  border-radius: 100rem;
+}
+ul li div{
+    padding: 0.4rem;
+
+}
+ul li div:not(:first-child){
+    flex-basis: 18%;
+}
+ul li select{
+    width: 4rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px soild lightskyblue;
+    font-weight: 100;
+}
+.checkout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 3;
+    height: 20rem;
+    border: wheat;
+    box-shadow: 1px 1px 5px rgb(35, 34, 34);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+.checkout>div{
+    display: flex;
+    flex:3;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    margin: 1rem;
+    font-size: 1.4rem;
+
+}
+
+.checkout .food-count{
+    margin-bottom: 1.5rem;
+
+}
+
+.checkout .food-count::before{
+    content: 'Total Product : ';
+    color: grey;
+}
+.checkout .total-price::before{
+    content: 'Total Price : ';
+    color: grey;
+}
+

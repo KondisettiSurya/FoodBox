@@ -1,0 +1,17 @@
+
+<section >
+  <div class="loginBox"> <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
+      <h3>Welcome</h3>
+      <form [formGroup]="loginuser">
+          <div class="inputBox"> 
+              <input id="email" formControlName="email" name="email" type="email" name="email" placeholder="email">
+              <small *ngIf="loginuser.controls['email'].dirty && loginuser.hasError('required','email')" class="text-danger">Enter vaild email</small> 
+              <input id="pass" formControlName="password" name="password"  type="password" name="Password" placeholder="Password"> 
+               <small *ngIf="loginuser.controls['password'].dirty && loginuser.hasError('required','password')" class="text-danger">Check the Password</small>  
+            </div> 
+          <input type="button" name="" value="Login" (click)="onlogin()">
+          <p style="color: #59238F; text-align: center;"> <a routerLink="/signup"> Sign-Up</a></p>
+      </form> 
+      
+  </div>
+  </section>

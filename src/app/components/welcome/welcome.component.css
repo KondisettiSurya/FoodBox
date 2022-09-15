@@ -1,0 +1,43 @@
+.banner-img{
+    background-image: url(../../../assets/images/pexels-trang-doan-1092730.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    object-fit: contain;
+    filter: blur(3px);    
+    height: 38rem;
+}
+section{
+    margin-top: 1rem;
+}
+.banner-title{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    border-top-left-radius:70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+}
+
+.banner-title p{
+    padding: 0.8%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    display: inline-block;
+    padding: 10px 50px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+}

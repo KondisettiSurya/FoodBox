@@ -89,3 +89,10 @@ ul li select{
     color: grey;
 }
 
+@media screen and (max-width: 600px) {
+
+    .container{
+       margin-left: 0.5px;       
+    }
+    
+}

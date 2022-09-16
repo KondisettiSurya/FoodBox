@@ -80,25 +80,22 @@ img{
 
 
 
-@media(max-width:767.99px){
-
-img{
-   max-width: 500px;
-}
-.card{
-    text-decoration: none;
-    max-width: 261px;
-    
-}
-}
-@media(max-width:810px){
-
-    .card{
-        text-decoration: none;
-        width: 40rem;
-        margin-left: 1rem;
-        
+@media screen and (max-width: 400px) {
+    .card {
+      width: 67%;
+      margin-left: 70px;
     }
-
-}
+    img{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .card {
+      width: 67%;
+      margin-left: 70px;
+    }
+    img{
+        width: 100%;
+    }
+  }
 

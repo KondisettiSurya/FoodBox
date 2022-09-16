@@ -41,3 +41,13 @@ a{
     color: #fff;
     margin-top: 15px;
 }
+
+
+@media screen and (max-width: 1200px ) {
+    
+    .banner-title{
+        height: 20rem;
+        width: 20rem;
+        margin-top: -5rem;
+    }
+}

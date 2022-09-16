@@ -37,3 +37,26 @@
 .favourite.not{
     color: rgb(235, 21, 21);
 }
+
+
+@media screen and (max-width: 600px) {
+   
+    img{
+        height: 20rem;
+        margin-left: -55px;
+    }
+    .container{
+        width: 0px;
+    }
+    .h1{
+        font-size: 25px;
+        margin-left: -70px;
+        margin-top: 30px;
+    }
+    .favourite{
+       
+        top: 29rem;
+        right: 1rem;
+        font-size: 1.5rem;
+    }
+  }

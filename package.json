@@ -20,6 +20,7 @@
     "@angular/router": "^14.0.0-next.0",
     "@fortawesome/fontawesome-free": "^6.2.0",
     "bootstrap": "^5.2.1",
+    "firebase": "^9.9.4",
     "ng2-search-filter": "^0.5.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
